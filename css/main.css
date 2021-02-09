@@ -97,7 +97,7 @@ nav a:hover {
     background-color: #F06C64;
     animation-name: slide1;
     animation-duration: 2.5s;
-    background-image: url(/slider-img/Slide-1.svg);
+    background-image: url(../slider-img/Slide-1.svg);
     background-size: cover;
     background-size: 100% 850px;
 }
@@ -106,7 +106,7 @@ nav a:hover {
     background-color: #648BF0;
     animation-name: slide2;
     animation-duration: 2.5s;
-    background-image: url(/slider-img/Slide-2.svg);
+    background-image: url(../slider-img/Slide-2.svg);
     background-size: cover;
     background-size: 100% 710px;
 }
@@ -150,19 +150,19 @@ nav a:hover {
 }
 
 .arrow-left-red {
-    background-image: url(/slider-img/arrow-left-red.svg);
+    background-image: url(../slider-img/arrow-left-red.svg);
 }
 
 .arrow-left-blue {
-    background-image: url(/slider-img/arrow-left-blue.svg);
+    background-image: url(../slider-img/arrow-left-blue.svg);
 }
 
 .arrow-right-red {
-    background-image: url(/slider-img/arrow-right-red.svg);
+    background-image: url(../slider-img/arrow-right-red.svg);
 }
 
 .arrow-right-blue {
-    background-image: url(/slider-img/arrow-right-blue.svg);
+    background-image: url(../slider-img/arrow-right-blue.svg);
 }
 /* servises */
 .servises {
@@ -381,7 +381,9 @@ footer p {
     header img {
         display: block;
         margin-left: 20px;
-        margin-top: 5px;
+        margin-top: 36px;
+        width: 25px;
+        height: 20px;
     }
 
     header h1 {
